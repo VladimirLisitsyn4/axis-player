@@ -1,5 +1,5 @@
 # Axis Player  
-**A web player for viewing recordings and live video from multiple axis cameras simultaneously**  
+**A web player for viewing recordings and live video from multiple Axis cameras simultaneously**  
 Uses the Axis Communications media stream library which can be found [here](https://github.com/AxisCommunications/media-stream-library-js)
   
 Webserver Setup:  
