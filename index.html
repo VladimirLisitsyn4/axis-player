@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple player</title>
+    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <script src="slider.js"></script>
+  </head>
+  <body>
+    <div class="info_wrapper">
+      <!-- <div>
+        Test cameras:
+        <input type="radio" name="camera" id="None" checked />
+        <label for="None">None</label>
+        <input type="radio" name="camera" id="AXIS" />
+        <label for="AXIS">AXIS</label>
+        <input type="radio" name="camera" id="AXIS-2" />
+        <label for="AXIS-2">AXIS-2</label>
+        <br>
+        <br>
+      </div> -->
+
+      <div>
+        <label for="host_el">Camera URL:</label>
+        <input id="host_el" type="text" placeholder="" style="width:300px; left: 216px; position: sticky;" />
+        <br>
+        <div style="display: none;">
+          <label for="ws_path_el">WS path:</label>
+          <input id="ws_path_el" type="text" placeholder="" style="width:300px; left: 216px; position: sticky;" />
+          <br>
+          <label for="rtsp_url_el">RTSP URL:</label>
+          <input id="rtsp_url_el" type="text" placeholder="" style="width:300px; left: 216px; position: sticky;" />
+          <br>
+        </div>
+        <label for="user_el">Username:</label>
+        <input id="user_el" type="text" placeholder="" style="width:300px; left: 216px; position: sticky;" />
+        <br>
+        <label for="pass_el">Password:</label>
+        <input id="pass_el" type="text" placeholder="" style="width:300px; left: 216px; position: sticky;" />
+        <br>
+        <br>
+        <!-- label for="device">Record ID:</label>
+        <input id="recordid" type="text"  / -->
+      </div>
+
+      <!-- div>
+        Video encoding:
+        <input type="radio" name="encoding" id="h264" checked />
+        <label for="h264">H.264</label>
+        <input type="radio" name="encoding" id="jpeg" />
+        <label for="jpeg">Motion JPEG</label>
+      </div -->
+      <button id="play">Add</button>
+      <button id="to_live">Live</button>
+      <button id="pause">Play/Pause</button>
+    </div>
+
+    <div id="video_container" class="video_container"></div>
+
+    <div id="mywrapper1" class="main_wrapper">
+      <br>
+      <div style="width: 100%;">
+        <input type="range" class="slider">
+        <ul class='marking'>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class='panel'>
+          <div class='controls'>
+            <button name="prev"><<</button>
+            <button name="minus">-</button>
+            <button name="plus">+</button>
+            <button name="next">>></button>
+          </div>
+          <div class='info'>
+            <p>Time: <output name="time"></output></p>
+            <p>Scale: <output name="scale"></output></p>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div id="records" style="margin-top: 50px;"></div>
+
+    <script src="media-stream-library.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
+    <script src="simple-player.js"></script>
+  </body>
+</html>

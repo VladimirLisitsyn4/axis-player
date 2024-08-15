@@ -1,0 +1,74 @@
+:root {
+    --main_width: 960px; /*Size of the main window*/
+    --margin_width: 96px /*Should be 10% of main_width*/
+}
+
+.main_slider {
+    width: var(--main_width)
+}
+
+.info_wrapper {
+  margin-left: var(--margin_width);
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 8px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 10%;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 5px;
+    height: 30px;
+    border-radius: 10%;
+    background: #fff;
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px 2px #ccc;
+    cursor: pointer;
+  }
+  
+  .marking {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    width: 100%
+  }
+  
+  .marking li {
+    flex: 1;
+    text-align: center;
+}
+
+.info {
+	display: flex;
+}
+
+.info p {
+	padding-right: 10px;
+}
+
+.controls {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 10px;
+}
+
+.panel {
+	display: flex;
+  margin-left: 10%;
+}
+
+.video_container {
+  margin-left: var(--margin_width)
+}
