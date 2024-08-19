@@ -3,8 +3,12 @@
     --margin_width: 96px /*Should be 10% of main_width*/
 }
 
-.main_slider {
+.main_wrapper {
     width: var(--main_width)
+}
+
+.slider_wrapper {
+  width: var(--main_width)
 }
 
 .info_wrapper {
