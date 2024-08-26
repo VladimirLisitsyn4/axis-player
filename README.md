@@ -17,7 +17,7 @@ start php.exe -S localhost:8088 -t YOUR AXIS PLAYER DIRECTORY
 - launch test.bat and go to localhost:8088 to access the player
 
 Usage:  
-- Input Camera URL, Username, and Password into their respective fields and press 'Add' to add the camera.
+- Input Camera URL (e.g. yourhost:port), Username, and Password into their respective fields and press 'Add' to add the camera.
 - Repeat above step for as many cameras as needed.
 - Use the buttons on the bottom bar to locate the desired recordings on the timeline and click on them to play the recordings.
 - OR if you are looking for the closest recording past a certain time you can click on the time and the earliest recording past that point will play.
