@@ -9,12 +9,12 @@ Webserver Setup:
 Local Testing Setup (Windows):
 - Make sure you have PHP installed
 - Place all files into a directory
-- Add a test.bat file with the following contents:
+- Add a launch.bat file with the following contents:
 ```
 cd YOUR PHP DIRECTORY
 start php.exe -S localhost:8088 -t YOUR AXIS PLAYER DIRECTORY
 ```
-- launch test.bat and go to localhost:8088 to access the player
+- launch launch.bat and go to localhost:8088 to access the player
 
 Usage:  
 - Input Camera URL (e.g. yourhost:port), Username, and Password into their respective fields and press 'Add' to add the camera.
