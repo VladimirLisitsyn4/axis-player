@@ -14,7 +14,7 @@ Local Testing Setup (Windows):
 cd YOUR PHP DIRECTORY
 start php.exe -S localhost:8088 -t YOUR AXIS PLAYER DIRECTORY
 ```
-- launch launch.bat and go to localhost:8088 to access the player
+- Launch launch.bat and go to localhost:8088 to access the player
 
 Usage:  
 - Input Camera URL (e.g. yourhost:port), Username, and Password into their respective fields and press 'Add' to add the camera.
